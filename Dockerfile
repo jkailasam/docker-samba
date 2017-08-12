@@ -19,7 +19,7 @@ ADD defaults/ /defaults/
 ADD etc/cont-init.d/ /etc/cont-init.d/
 ADD etc/services.d/ /etc/services.d/
 #ADD etc/fix-attrs.d/ /etc/fix-attrs.d/
-RUN chmod -v +x /etc/services.d/*/run /etc/cont-init.d/*.sh && \
+RUN chmod -v +x /etc/services.d/*/run /etc/cont-init.d/*.sh
 
 
 # expose ports
