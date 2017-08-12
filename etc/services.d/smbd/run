@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/sbin/smbd -D -l /config/logs -s /config/smb.conf
